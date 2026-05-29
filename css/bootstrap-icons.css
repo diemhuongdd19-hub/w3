@@ -1396,7 +1396,7 @@ url("../fonts/bootstrap-icons.woff") format("woff");
 .bi-translate::before { content: "\f658"; }
 .bi-x-lg::before { content: "\f659"; }
 .bi-safe::before { content: "\f65a"; }
-.bi-Amazon::before { content: "\f65b"; }
+.bi-apple::before { content: "\f65b"; }
 .bi-microsoft::before { content: "\f65d"; }
 .bi-windows::before { content: "\f65e"; }
 .bi-behance::before { content: "\f65c"; }

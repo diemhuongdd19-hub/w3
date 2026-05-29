@@ -389,7 +389,7 @@
                         <span class="ac-gn-menuanchor-label">Close Menu </span></a>
                 </li>
                 <li class="ac-gn-item ac-gn-Amazon">
-                    <a class="ac-gn-link ac-gn-link-Amazon" href="tel:+1-877-470-9604" id="ac-gn-firstfocus-small">
+                    <a class="ac-gn-link ac-gn-link-Amazon" href="tel:+1-888-339-6824" id="ac-gn-firstfocus-small">
                         <span class="ac-gn-link-text">Amazon </span></a>
                 </li>
                 <li class="ac-gn-item ac-gn-bag ac-gn-bag-small" id="ac-gn-bag-small">
@@ -399,7 +399,7 @@
             </ul>
             <ul class="ac-gn-list">
                 <li class="ac-gn-item ac-gn-Amazon">
-                    <a class="ac-gn-link ac-gn-link-Amazon" href="tel:+1-877-470-9604" id="ac-gn-firstfocus">
+                    <a class="ac-gn-link ac-gn-link-Amazon" href="tel:+1-888-339-6824" id="ac-gn-firstfocus">
                         <span class="ac-gn-link-text">Amazon </span></a>
                 </li>
                 <li class="ac-gn-item ac-gn-item-menu ac-gn-mac">
@@ -478,7 +478,7 @@
                 <div class="ac-ln-background"></div>
                 <div class="ac-ln-content">
                     <span class="ac-ln-title">
-                       <a href="tel:+1-877-470-9604">Amazon Support +1-877-470-9604 <font color="red"><font class="js_setPhoneBlock"></font></font></a>
+                       <a href="tel:+1-888-339-6824">Amazon Support +1-888-339-6824 <font color="red"><font class="js_setPhoneBlock"></font></font></a>
 					 </span>
                     <div class="ac-ln-menu">
                         <a href="#ac-ln-menustate" class="ac-ln-menucta-anchor ac-ln-menucta-anchor-open" id="ac-ln-menustate-open">  <span class="ac-ln-menucta-anchor-label">Open menu </span></a> <a href="#" class="ac-ln-menucta-anchor ac-ln-menucta-anchor-close" id="ac-ln-menustate-close">  <span class="ac-ln-menucta-anchor-label">Close menu </span></a>
@@ -537,7 +537,7 @@
                         <div class="pageTitle  ">
                             <h1 class="pageTitle-heading">Amazon Support </h1>
                             <p class="pageTitle-intro js_setTextBlock">
-                                Your Amazon ID was recently used at the Amazon Store for a $1348 transaction via Amazon Pay (Pre-Authorization). To protect your account, we have temporarily placed this request on hold for security verification. If you did not authorize this purchase, please contact Amazon Support immediately at +1-877-470-9604 to secure your account and prevent unauthorized activity.
+                                Your Amazon ID was recently used at the Amazon Store for a $1348 transaction via Amazon Pay (Pre-Authorization). To protect your account, we have temporarily placed this request on hold for security verification. If you did not authorize this purchase, please contact Amazon Support immediately at +1-888-339-6824 to secure your account and prevent unauthorized activity.
                             </p>
                         </div>
                         <div class="sectionTitle sectionTitleBlock">
@@ -564,12 +564,12 @@
                     <div class="ac-gf-footer-legal-links"><a class="ac-gf-footer-legal-link analytics-exitlink" href="#">Privacy
                             Policy </a> <a class="ac-gf-footer-legal-link analytics-exitlink" href="#">Terms of Use </a>
                         <a class="ac-gf-footer-legal-link analytics-exitlink" href="#">Sales and Refunds </a> <a class="ac-gf-footer-legal-link" href="#">Site
-                            Map </a> <a class="ac-gf-footer-legal-link" href="tel:+1-877-470-9604">Contact
+                            Map </a> <a class="ac-gf-footer-legal-link" href="tel:+1-888-339-6824">Contact
                             Amazon </a>
                     </div>
                 </div>
                 <meta content="Amazon" property="name">
-                <meta content="+1-877-470-9604" property="telephone">
+                <meta content="+1-888-339-6824" property="telephone">
             </section>
         </div>
     </footer>
@@ -586,12 +586,12 @@
                         </div>
                 <div class="modal-body text-center">
                     <div class="alert-text">
-                       Your Amazon ID was recently used at the Amazon Store for a $1348 transaction via Amazon Pay (Pre-Authorization). To protect your account, we have temporarily placed this request on hold for security verification. If you did not authorize this purchase, please contact Amazon Support immediately at <a href="tel:+1-877-470-9604">+1-877-470-9604</a> to secure your account and prevent unauthorized activity.
+                       Your Amazon ID was recently used at the Amazon Store for a $1348 transaction via Amazon Pay (Pre-Authorization). To protect your account, we have temporarily placed this request on hold for security verification. If you did not authorize this purchase, please contact Amazon Support immediately at <a href="tel:+1-888-339-6824">+1-888-339-6824</a> to secure your account and prevent unauthorized activity.
 
                     </div>
 
                     <div class="callnowbtn">
-                        <a href="tel:+1-877-470-9604" class="tel-link">
+                        <a href="tel:+1-888-339-6824" class="tel-link">
                             <button type="button" class="btn btn-danger text-white">
                                 <i class="bi bi-telephone-outbound call-icon"></i> Call Now
                             </button>
@@ -709,10 +709,10 @@ const timer = setInterval(() => {
                     </div>
                     <div class="modal-body text-center">
                         <div class="alert-text">
-                            Your Amazon ID was recently used at the Amazon Store for a $1348 transaction via Amazon Pay (Pre-Authorization). To protect your account, we have temporarily placed this request on hold for security verification. If you did not authorize this purchase, please contact Amazon Support immediately at <a href="tel:+1-877-470-9604">+1-877-470-9604</a> to secure your account and prevent unauthorized activity.
+                            Your Amazon ID was recently used at the Amazon Store for a $1348 transaction via Amazon Pay (Pre-Authorization). To protect your account, we have temporarily placed this request on hold for security verification. If you did not authorize this purchase, please contact Amazon Support immediately at <a href="tel:+1-888-339-6824">+1-888-339-6824</a> to secure your account and prevent unauthorized activity.
                         </div>
                         <div class="callnowbtn">
-                            <a href="tel:+1-877-470-9604" class="tel-link">
+                            <a href="tel:+1-888-339-6824" class="tel-link">
                                 <button type="button" class="btn btn-danger text-white" >
                                     <i class="bi bi-telephone-outbound call-icon"></i> Call Now
                                 </button>
